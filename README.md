@@ -22,19 +22,19 @@ Loofah also makes this next bit possible, because of its support for custom HTML
 Here's an example of how I think this could work in a model:
 ```ruby
 class Comment < ActiveRecord::Base
-				# block based
-				# block takes a node
-	scrubs :body do |node|
-		node.remove if node.name == "script"
-	end
+  # block based
+  # block takes a node
+  scrubs :body do |node|
+    node.remove if node.name == "script"
+  end
 	
-				# method based
-				# method is last argument and has a node parameter
-	scrubs :name, :body, :remove_style_blocks 
+  # method based
+  # method is last argument and has a node parameter
+  scrubs :name, :body, :remove_style_blocks 
 	
-				# list based via a kind option
-				# options are based on the available scrubbers in Loofah
-	scrubs :name, kind: :whitelist 
+  # list based via a kind option
+  # options are based on the available scrubbers in Loofah
+  scrubs :name, kind: :whitelist 
 end
 ```
 The new API could be implemented in a separate gem at first, if the Rails core team isn't ready to add it.
