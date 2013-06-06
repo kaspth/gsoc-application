@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # The Path to Faster and Better HTML Sanitization
 
 Kasper Timm Mehli Hansen
@@ -81,9 +80,3 @@ I know when to stop and call it a day. You won't see me coding the night away an
 To elaborate on why this problem excites me I will tell a little story. Recently I was at a conference where Don Melton, the person who started the Safari (and WebKit) project at Apple, spoke. Don told us how his team made Safari fast. To see him talking about how early Safari builds were even slower than Mac IE and how they changed course to become the fastest browser was incredibly inspiring. Right now I'm feeling that same kind of inspiration as I think of this project. The variety it entails. I get to both update existing code while getting a hand at managing new complexity. The new territory I get to tread. A clear part of what excites me is to do something I haven't done before, not exactly like this anyway.
 
 So I don't fear the complications that this task will bring, I welcome them. They give me a chance to show my worth. To show that I can do this. I'm the path to better sanitization in Rails.
-=======
-gsoc-application
-================
-
-My project proposal for Google Summer of Code 2013.
->>>>>>> 4eb64fa3acc69d0e95d7c4df69726aca4de90714
